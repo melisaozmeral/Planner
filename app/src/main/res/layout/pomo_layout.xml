@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#E1EDFF"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#E1EDFF"
+        app:itemIconTint="@drawable/selector"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/menu_bottom" />
+
+    <include android:id="@+id/time_toolbar"
+        layout="@layout/time_toolbar"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="161dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="205dp"
+        android:clickable="true"
+        android:text="05:00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/blue"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/start"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="233dp"
+        android:background="@drawable/button_color"
+        android:onClick="startButton"
+        android:text="Başla" />
+    <Button
+        android:id="@+id/pause"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="233dp"
+        android:background="@drawable/pause_button"
+        android:text="Dur"
+        android:visibility="invisible"
+        android:clickable="false"/>
+
+    <Button
+        android:id="@+id/resume"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="233dp"
+        android:background="@drawable/continue_button"
+        android:clickable="false"
+        android:text="Devam"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/finish"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="174dp"
+        android:background="@drawable/pause_button"
+        android:text="Bitir"
+        android:visibility="invisible"
+        android:clickable="false"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    
+    >
+    <item
+        android:id="@+id/none"
+        android:icon="@drawable/ic_baseline_music_off_24"
+        android:title="Ses Yok"
+
+        />
+    <item
+        android:id="@+id/clock"
+        android:icon="@drawable/ic_baseline_access_time_filled2_24"
+        android:title="Saat Sesi"
+        />
+    <item
+        android:id="@+id/rain"
+        android:icon="@drawable/ic_baseline_wb_cloudy_24"
+        android:title="Yağmur Sesi" />
+
+</menu>

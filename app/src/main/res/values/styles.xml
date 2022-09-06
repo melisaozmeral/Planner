@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustNothing</item>
+    </style>
+    <style name="Category" parent="Theme.Design">
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:windowSoftInputMode">adjustNothing</item>
+    </style>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorControlActivated">@color/medium</item>
+        <item name="colorAccent">#ffcc0000</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+    </style>
+
+
+</resources>

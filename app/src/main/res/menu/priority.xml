@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/high"
+        android:icon="@drawable/ic_action_high_priority"
+        android:title="Yüksek Öncelikli"
+
+        />
+    <item
+        android:id="@+id/medium"
+        android:icon="@drawable/ic_action_medium_priority"
+        android:title="Orta Öncelikli"
+        />
+    <item
+        android:id="@+id/low"
+        android:icon="@drawable/ic_action_low_priority"
+        android:title="Düşük Öncelikli" />
+    <item
+        android:id="@+id/no"
+        android:icon="@drawable/ic_action_no_priority"
+        android:title="Öncelik Yok" />
+
+</menu>

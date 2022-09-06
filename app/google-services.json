@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633581172105",
+    "project_id": "planner-c2def",
+    "storage_bucket": "planner-c2def.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633581172105:android:340c5668e584f44cd31d58",
+        "android_client_info": {
+          "package_name": "com.mo.planner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633581172105-mp9dnilhrm0ogg6vkg94orvkjtdebmr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUhzsLaE17M71Fjsazl2Z4KhCHi41__v8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633581172105-mp9dnilhrm0ogg6vkg94orvkjtdebmr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
